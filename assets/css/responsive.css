@@ -1,0 +1,67 @@
+/* TABLET */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    #conten {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #conten .intro {
+        display: none;
+    }
+    #conten h1 {
+        margin-top: -10px;
+    }
+    #conten .Our {
+        flex-direction: column;
+        padding: 0 24px;
+    }
+    #conten img {
+        width: 100%;
+    }
+    .contact {
+        padding: 0 16px;
+    }
+
+
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 740px) {
+    .header a {
+        font-size: 10px;
+    }
+    .btn-menu {
+        display: none;
+    }
+    #slider h1 {
+        font-size: 25px;
+    }
+    #conten {
+        margin: 0 0;
+    }
+    #conten .about {
+        flex-direction: column;
+    }
+    .about-img {
+        order: 2;
+    }
+    .about-catering {
+        order: 1;
+    }
+    .col {
+        width: 100%;
+    }
+    #conten .Our {
+        flex-direction: column;
+        padding: 0 24px;
+    }
+    .contact {
+        padding: 0 24px;
+    }
+
+
+
+}

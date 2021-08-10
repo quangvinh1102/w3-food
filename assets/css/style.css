@@ -1,0 +1,211 @@
+/* REST CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SHARED */
+.block {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+}
+.col {
+    width: 50%;
+    float: left;
+    padding: 12px 24px;
+}
+.mg-10 {
+    margin: 10px 0px;
+}
+.mg-18 {
+    margin: 18px 0px;
+}
+.mg-15 {
+    margin: 15px 0px;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+.in-pt {
+    padding: 16px 8px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+/* Header */
+
+
+#heading .header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    position: fixed;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    z-index: 1;
+}
+
+
+#heading .btn-home {
+    padding: 8px 16px;
+}
+#heading .btn-home:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+
+.btn-menu a {
+    display: inline-block;
+    padding: 10px 16px;
+}
+.btn-menu a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+
+
+
+/* Slider */
+#slider .bg-slider {
+    position: relative;
+}
+#slider img {
+    max-width: 100%;
+}
+#slider h1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.6;
+    padding: 12px 24px;
+    margin: 10px 0;
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+
+/* begin Conten */
+
+#conten {
+    margin-left: 102.500px;
+    margin-right: 102.500px;
+}
+#conten .about {
+    width: 100%;
+    display: flex;
+}
+#conten img {
+    max-width: 100%;
+    border-radius: 4px;
+    opacity: 0.75;
+    height: auto;
+    flex-grow: 1;
+}
+#conten .about-catering {
+    max-width: 100%;
+    height: auto;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#conten h1,h5 {
+    text-align: center;
+}
+#conten h1 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+#conten h5 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#conten p {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: left;
+}
+#conten span {
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 0 8px;
+}
+#conten .intro {
+    color: #757577;
+}
+
+#conten .Our {
+    display: flex;
+    justify-content: space-between;
+}
+#conten h4 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+#conten .Our p {
+    color: #757577;
+}
+#conten .contact p {
+    font-size: 15px;
+}
+#conten .contact h1 {
+    text-align: unset;
+}
+#conten .contact h3 {
+    color: #607d8b;
+}
+
+#conten .contact button {
+    color: #000;
+    background-color: #f1f1f1;
+    margin: 16px 0;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-align: center;
+}
+#conten .contact button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+/* footer */
+#footer {
+    background-color: #f1f1f1;
+    padding: 32px 0;
+    text-align: center;
+}
+#footer a {
+    color: inherit;
+}
+#footer a:hover {
+    color: #4CAF50;
+}
